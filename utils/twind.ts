@@ -5,6 +5,15 @@ export const config: Configuration = {
   darkMode: "media", // or 'media' or 'class'
   theme: {
     extend: {
+      colors: {
+        chaos: {
+          primary: `#1d0016`,
+          secondary: `#2e0324`,
+          tertiary: `#3b2836`,
+          border: `#33252f`,
+          foreground: `#fccef1`,
+        },
+      },
       spacing: {
         "102": "32rem",
         "108": "36rem",

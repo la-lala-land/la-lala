@@ -2,21 +2,37 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/[name].tsx";
-import * as $1 from "./routes/api/joke.ts";
-import * as $2 from "./routes/index.tsx";
+import * as $0 from "./routes/[mode].tsx";
+import * as $1 from "./routes/index.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 import * as $$1 from "./islands/Header.tsx";
+import * as $$2 from "./islands/Lala.tsx";
+import * as $$3 from "./islands/ModeChainMail.tsx";
+import * as $$4 from "./islands/ModeCharacter.tsx";
+import * as $$5 from "./islands/ModeEmail.tsx";
+import * as $$6 from "./islands/ModeName.tsx";
+import * as $$7 from "./islands/ModeRace.tsx";
+import * as $$8 from "./islands/ModeStory.tsx";
+import * as $$9 from "./islands/ModeString.tsx";
+import * as $$10 from "./islands/Toggle.tsx";
 
 const manifest = {
   routes: {
-    "./routes/[name].tsx": $0,
-    "./routes/api/joke.ts": $1,
-    "./routes/index.tsx": $2,
+    "./routes/[mode].tsx": $0,
+    "./routes/index.tsx": $1,
   },
   islands: {
     "./islands/Counter.tsx": $$0,
     "./islands/Header.tsx": $$1,
+    "./islands/Lala.tsx": $$2,
+    "./islands/ModeChainMail.tsx": $$3,
+    "./islands/ModeCharacter.tsx": $$4,
+    "./islands/ModeEmail.tsx": $$5,
+    "./islands/ModeName.tsx": $$6,
+    "./islands/ModeRace.tsx": $$7,
+    "./islands/ModeStory.tsx": $$8,
+    "./islands/ModeString.tsx": $$9,
+    "./islands/Toggle.tsx": $$10,
   },
   baseUrl: import.meta.url,
 };

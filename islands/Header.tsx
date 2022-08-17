@@ -14,7 +14,7 @@ export default function Header(props: { NavList: NavList[] }) {
   return (
     <header
       class={tw
-        `flex flex-row w-full bg-gray-800 border-b-2 border-blue-300 relative`}
+        `flex flex-row w-full bg-chaos-primary border-b-2 border-chaos-foreground relative`}
     >
       <div class={tw`flex flex-row w-full items-center p-4`}>
         <div class={tw`flex flex-row items-center justify-center lg:hidden`}>
@@ -67,12 +67,12 @@ export default function Header(props: { NavList: NavList[] }) {
           class={tw
             `flex flex-col text-base lg:flex-row transition duration-500 ease-in-out transform absolute lg:static top-16 left-0 ${
               navOpen ? "-translate-x-0" : "-translate-x-140"
-            } space-y-4 lg:space-y-0 lg:space-x-4 lg:items-center lg:translate-x-0 lg:max-w-7xl w-full text-white lg:mx-auto bg-gray-800 py-8 lg:py-2 px-8 lg:px-1 min-h-screen lg:min-h-0 overflow-y-auto`}
+            } space-y-4 lg:space-y-0 lg:space-x-4 lg:items-center lg:translate-x-0 lg:max-w-7xl w-full text-white lg:mx-auto bg-chaos-primary py-8 lg:py-2 px-8 lg:px-1 min-h-screen lg:min-h-0 overflow-y-auto`}
         >
           {props.NavList.map((x) => (
             <a
               class={tw
-                `hover:text-blue-300 transition duration-500 px-4 lg:px-1 font-semibold`}
+                `hover:text-chaos-foreground transition duration-500 px-4 lg:px-1 font-semibold`}
               href={x.route}
               key={x.key}
             >

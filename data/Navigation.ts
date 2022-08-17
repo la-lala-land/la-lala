@@ -1,12 +1,38 @@
 export default [
     {
-        name: "Home",
-        route: "/",
-        key: "home"
+        name: "String",
+        route: "/string",
+        key: "string"
     },
     {
-        name: "Not Home",
-        route: "/",
-        key: "nothome"
+        name: "Email",
+        route: "/email",
+        key: "email"
     },
+    {
+        name: "Name",
+        route: "/name",
+        key: "name"
+    },
+    {
+        name: "Character",
+        route: "/character",
+        key: "character"
+    },
+    {
+        name: "Race",
+        route: "/race",
+        key: "race"
+    },
+    {
+        name: "Chain Mail",
+        route: "/chainmail",
+        key: "chainmail"
+    },
+    {
+        name: "Story",
+        route: "/story",
+        key: "story"
+    },
+
 ]

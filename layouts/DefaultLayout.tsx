@@ -19,10 +19,7 @@ export default function Layout({ children }: LayoutProps) {
       font-montserrat
       text-lg
       tracking-wide
-      text-gray-900
-      bg-white
-      dark:font-normal
-      kurobg
+      bg-chaos-primary text-white
     `}
     >
       <Header NavList={Navigation} />
@@ -36,7 +33,6 @@ export default function Layout({ children }: LayoutProps) {
         md:px-8
         py-4
         mt-24
-        bg-white
       `}
       >
         {children}

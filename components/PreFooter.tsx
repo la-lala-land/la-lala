@@ -7,7 +7,7 @@ export default function PreFooter() {
     <div
       class={tw`
       bg-transparent
-      text-black
+      text-white
       md:h-48
       p-8
       flex flex-col space-y-8
@@ -15,7 +15,7 @@ export default function PreFooter() {
       `}
     >
       <hr
-        class={tw`max-w-6xl border-2 rounded-xl border-gray-800 w-full`}
+        class={tw`max-w-6xl border-2 rounded-xl border-chaos-foreground w-full`}
       />
       <div
         class={tw`
@@ -32,12 +32,12 @@ export default function PreFooter() {
         `}
       >
         <div class={tw`p-2 flex flex-col space-y-4 items-start`}>
-          <div class={tw`text-2xl font-black`}>Cool Name</div>
+          <div class={tw`text-2xl font-black`}>La Lala</div>
           <span
             class={tw`flex flex-row items-center fill-transparent stroke-1 space-x-2`}
           >
             <a
-              href="https://nekooftheabyss.moe"
+              href="https://lala.nett.moe"
               target="_blank"
               class={tw`font-semibold flex flex-row items-center`}
             >
@@ -48,7 +48,7 @@ export default function PreFooter() {
                 fill="transparent"
                 viewBox="0 0 24 24"
                 stroke-linecap="round"
-                stroke="black"
+                stroke="white"
                 strokeWidth="2"
                 stroke-linejoin="round"
                 class={tw`feather feather-globe`}
@@ -71,7 +71,7 @@ export default function PreFooter() {
                 fill="transparent"
                 viewBox="0 0 24 24"
                 stroke-linecap="round"
-                stroke="black"
+                stroke="white"
                 strokeWidth="2"
                 stroke-linejoin="round"
                 class={tw`feather feather-facebook`}
