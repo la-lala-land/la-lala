@@ -13,7 +13,7 @@ export default function ModeName() {
       <p class={tw`my-6`}>
         Generate a random name!
       </p>
-      <div class={tw`lg:flex gap-2 w-full`}>
+      <div class={tw`flex flex-col lg:flex-row items-center gap-2 w-full`}>
         <label for={formID} class={tw`flex-grow-1 font-bold text-xl`}>
           Length of generated name:
         </label>
@@ -21,10 +21,10 @@ export default function ModeName() {
           id={formID}
           type="number"
           //@ts-ignore I KNOW IT DOES EXIST
-          onInput={(e) => setLength(e.target?.value)}
+          onInput={(e) => setLength(e.currentTarget?.value > 500000 ? 500000 : e.currentTarget.value)}
         />
       </div>
-      <div class={tw`flex flex-col space-y-2 items-center w-full max-w-2xl`}>
+      <div class={tw`flex flex-col space-y-2 items-center w-full max-w-sm md:max-w-md lg:max-w-2xl`}>
         <p class={tw`font-semibold uppercase text-xl`}>RESULT</p>
         <p class={tw`text-base break-words w-full text-center text-chaos-foreground`}>
           {capitalize((length ? generateName(length) : generateFantasyName()).toLowerCase())}

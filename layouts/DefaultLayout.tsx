@@ -15,8 +15,8 @@ export default function Layout({ children }: LayoutProps) {
     <div
       class={tw`
       flex flex-col
-      min-h-screen
-      font-montserrat
+      min-h-screen w-full
+      font-montserrat break-words
       text-lg
       tracking-wide
       bg-chaos-primary text-white

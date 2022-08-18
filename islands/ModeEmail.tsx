@@ -33,7 +33,7 @@ export default function ModeEmail() {
           Generate
         </button>
       </div>
-      <div class={tw`flex flex-col space-y-2 items-center w-full max-w-2xl`}>
+      <div class={tw`flex flex-col space-y-2 items-center w-full max-w-sm md:max-w-md lg:max-w-2xl`}>
         <p class={tw`font-semibold uppercase text-xl`}>RESULT</p>
         <p class={tw`text-base break-words w-full text-center text-chaos-foreground`}>
           {email}
